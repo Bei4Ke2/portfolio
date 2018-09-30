@@ -1,50 +1,154 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
-  <head>
-     <!-- Global site tag (gtag.js) - Google Analytics -->
-     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108282143-1"></script>
-     <script>
-         window.dataLayer = window.dataLayer || [];
- 
-         function gtag() {
-             dataLayer.push(arguments);
-         }
-         gtag('js', new Date());
- 
-         gtag('config', 'UA-108282143-1');
-     </script>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruby Chien | Design Portfolio</title>
-      <!--Google Font: Open Sans & Ubuntu Condensed-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700|Ubuntu+Condensed" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
-  </head>
-  <body>
-      <div class="grid-container">
 
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108282143-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
+    gtag('config', 'UA-108282143-1');
+  </script>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruby Chien | Design Portfolio</title>
+  <!--Google Font: Open Sans & Ubuntu Condensed-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700|Ubuntu+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="images/ruby_shorter.png"> -->
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+  <div class="grid-container">
+    <div data-sticky-container>
+      <!-- hamburger toggle for small screen  -->
+      <div data-sticky-container class="title-bar align-right" data-responsive-toggle="top-menu" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle="top-menu"></button>
+        <div class="title-bar-title"></div>
       </div>
+      <!-- hamburger toggle menu ends -->
+      <div>
+
+        <nav class="top-bar align-right sticky" id="top-menu" data-sticky data-options="marginTop:0;" data-responsive-toggle="toggle_menu"
+          data-toggle="toggle_menu">
+          <a class="align-left" href="#">
+            <img class="top_logo" src="images/ruby_logo.png" alt="">
+          </a>
+          <ul class="vertical medium-horizontal menu" id="toggle_menu">
+            <li>
+              <a href="index.html">Works</a>
+            </li>
+            <li>
+              <a href="about.html" id="index">About Me</a>
+            </li>
+            <li>
+              <a href="#resume">Resume</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- 
+      <nav class="top-bar topbar-responsive">
+      <div class="top-bar-title">
+        <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle></button>
+        </span>
+        <a class="topbar-responsive-logo" href="#">
+          <img src="images/logo.png" alt="">
+        </a>
+      </div>
+      <div id="topbar-responsive" class="topbar-responsive-links">
+        <div class="top-bar-right">
+          <ul class="menu simple vertical medium-horizontal">
+            <li>
+              <a href="#">Works</a>
+            </li>
+            <li>
+              <a href="#">About Me</a>
+            </li>
+            <li>
+              <a href="#">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+
+      <h2 class="greeting">Hello, my name is Ruby.</h2>
+      <div class="grid-x ">
+        <div class="cell large-8 medium-10 small-12">
+          <p>It’s a pleasure to meet you! Based in Los Angeles, I am a
+            <span class="mytitle">Product Designer</span> and a
+            <span class="mytitle">Pixel Crafter</span> who is empathetic about your problems. I am here to help create solutions and bring change
+            through intuitive designs and delightful experiences.
+          </p>
+        </div>
+      </div>
+
+      <!-- <div class="grid-container">
+        <div class="navigation flex-container">
+          <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a>
+          </div>
+          <div class="works"><a href="index.html">Works</a>
+          </div>
+          <div class="about"><a href="about.html">About Me</a>
+          </div>
+          <div class="resume"><a href="#resume">Resume</a></div>          
+        </div> -->
+      <div class="grid-x">
+        <div class="cell large-6 image-placeholder">
+          <h4>Bömbox</h4>
+        </div>
+        <div class="cell large-6  image-placeholder">
+          <h4>RUCA Corporation</h4>
+        </div>
+        <div class="cell large-6 image-placeholder">
+          <h4>Cocoaddict</h4>
+        </div>
+        <div class="cell large-6 image-placeholder">
+          <h4>100 Days of UI Challenge</h4>
+        </div>
+      </div>
+
       <div class="footer">
-          <p>Let's work together!</p>
-          <a href="https://github.com/rubychi3n">
-              <i class="fab fa-github"></i>
+        <div class="footer-message">
+          <h3 class="ready">Ready to Talk?</h3>
+          <p>Let me help you make your big idea come true.</p>
+        </div>
+
+        <div class="footer-icons">
+          <a href="mailto:hello@rubychien.me">
+            <i class="far fa-envelope"></i>
           </a>
           <a href="https://www.linkedin.com/in/rubyyujuchien/">
-              <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-linkedin"></i>
           </a>
-          <a href="mailto:hello@rubychien.me">
-              <i class="far fa-envelope"></i>
+          <a href="https://www.instagram.com/rubabyniu/">
+            <i class="fab fa-instagram"></i>
           </a>
-      </div>
+          <a href="https://github.com/rubychi3n">
+            <i class="fab fa-github-alt"></i>
+          </a>
+        </div>
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+      </div>
+    </div>
+  </div>
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
 </html>

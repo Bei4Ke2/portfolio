@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/* CSS styles for About Me only */
+
+.top_logo {
+    width: 120px;
+    margin-top: 10%;
+  }
+   
+  .bg_splashpaint {
+    background-image: url(/images/Confetti.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  
