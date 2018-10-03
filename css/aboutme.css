@@ -17,4 +17,137 @@
     list-style: none;
   }
   
-  
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.75rem;
+}
+
+.main {
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 120rem;
+    padding: 0 3rem;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    margin-right: 35px;
+    font-size: 1.6rem;
+}
+
+.logo-image {
+    height: 75px;
+    margin-right: auto;
+    display: none;
+}
+
+.born-banner {
+    width: 100%;
+    margin-top: 50px;
+    height: 350px;
+    background: url('/images/confetti.jpg'), repeat;
+    background-size: 1500px;
+    opacity: .1;
+}
+
+.born-container {
+    position: relative;
+}
+
+.banner-blurb {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.ruby-profile {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 5rem;
+    justify-content: space-between;
+}
+
+.ruby-profile div {
+    flex-basis: 100%;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.ruby-profile .profile-title {
+    font-weight: bold;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+}
+
+.ruby-columns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.ruby-photo,
+.ruby-column {
+    flex-basis: 100%;
+}
+
+.ruby-photo {
+    margin-bottom: 3rem;
+}
+
+.ruby-photo img {
+    width: 100%;
+}
+
+.ruby-column p {
+    line-height: 1.5;
+}
+
+.footer {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.footer h2 {
+    margin-bottom: 1rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.social-icons p {
+    margin-right: 1.6rem;
+}
